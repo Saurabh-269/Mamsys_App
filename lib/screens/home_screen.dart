@@ -4,7 +4,7 @@ import 'package:demo/utils/color_utils.dart';
 import 'chatbot_screen.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   _HomeScreenState createState() => _HomeScreenState();

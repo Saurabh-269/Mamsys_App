@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class ChatbotScreen extends StatefulWidget {
+  const ChatbotScreen({super.key});
+
   @override
   _ChatbotScreenState createState() => _ChatbotScreenState();
 }
@@ -123,7 +125,7 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
     }
   ];
 
-  List<String> _selectedOptions = [];
+  final List<String> _selectedOptions = [];
   List<Map<String, dynamic>> _followUpQuestions = [];
 
   void _selectOption(String option) {

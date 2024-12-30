@@ -5,7 +5,7 @@ import 'signin_screen.dart';
 
 class OTPScreen extends StatefulWidget {
   final String verificationId;
-  const OTPScreen({Key? key, required this.verificationId}) : super(key: key);
+  const OTPScreen({super.key, required this.verificationId});
 
   @override
   State<OTPScreen> createState() => _OTPScreenState();

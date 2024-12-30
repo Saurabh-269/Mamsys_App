@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'otp_screen.dart';
 
 class PhoneNumberLoginScreen extends StatefulWidget {
-  const PhoneNumberLoginScreen({Key? key}) : super(key: key);
+  const PhoneNumberLoginScreen({super.key});
 
   @override
   State<PhoneNumberLoginScreen> createState() => _PhoneNumberLoginScreenState();

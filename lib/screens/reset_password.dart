@@ -5,14 +5,14 @@ import 'package:demo/utils/color_utils.dart';
 import 'package:flutter/material.dart';
 
 class ResetPassword extends StatefulWidget {
-  const ResetPassword({Key? key}) : super(key: key);
+  const ResetPassword({super.key});
 
   @override
   _ResetPasswordState createState() => _ResetPasswordState();
 }
 
 class _ResetPasswordState extends State<ResetPassword> {
-  TextEditingController _emailTextController = TextEditingController();
+  final TextEditingController _emailTextController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
